@@ -1,0 +1,51 @@
+header {
+    background-color: rgb(6, 6, 92);
+    color: #fff;
+}
+
+header h1 {
+    font-size: 52px;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+    color:#fff;
+}
+
+@media all and (min-width: 800px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15px;
+        
+    }
+
+    header h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    header nav {
+        margin-top: 30px;
+    }
+
+    header nav ul li a:hover {
+        color:aqua
+    }
+}
